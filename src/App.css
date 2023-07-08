@@ -49,6 +49,7 @@ body {
 .main-container-coming-soon > div {
 	display: flex;
 	flex-direction: column;
+	padding: 20px;
 	align-items: center;
 	gap: 20px;
 }
