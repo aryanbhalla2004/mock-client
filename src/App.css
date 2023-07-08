@@ -18,19 +18,32 @@ body {
 }
 
 .main-container-coming-soon {
-	border: 1px solid;
 	width: 100%;
+	gap: 50px;
 	height: 100vh;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	flex-direction: column;
 	text-align: center;
+}
+
+.main-container-coming-soon > footer {
+	border-top: 1px solid var(--darkColor);
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	padding: 20px;
+}
+
+.main-container-coming-soon > footer > div > p {
+	font-weight: 300;
 }
 
 .main-container-coming-soon > img {
 	width: 200px;
+	margin-top: 20px;
 }
 
 .main-container-coming-soon > div {
@@ -54,7 +67,7 @@ body {
 	line-height: 25px;
 }
 
-.mt-2{
+.mt-2 {
 	margin-top: 20px;
 }
 

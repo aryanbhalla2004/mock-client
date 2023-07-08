@@ -19,7 +19,9 @@ const App = () => {
         <button onClick={handleClick}>Join Our Team <i className="bi bi-arrow-right"></i></button>
       </div>
       <footer>
-
+        <div className="content-sizing auth-12-footer-content">
+          <p>&copy; 2023 Zoobo Inc. All Rights Reserved.</p>
+          </div>
       </footer>
     </div>
   )
